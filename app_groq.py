@@ -9,7 +9,7 @@ import sqlite3
 from contextlib import contextmanager
 from io import BytesIO
 import json
-
+# python -m streamlit run app_groq.py
 # --- CONFIGURAÇÃO DA PÁGINA ---
 st.set_page_config(
     page_title="NeuralFinance Chat 3.0",
